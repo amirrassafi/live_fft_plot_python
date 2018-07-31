@@ -1,9 +1,11 @@
 # serial monitoring in python and get from it live fft
 
-## just send data in format =>
+### _just send data in format =>_
 
-##  'data1','data2','data3','data4'\n
+###  _'data1','data2','data3','data4'\n_
 
-## make
+## how to run?
 
-## launch application with python monitor.py ttyUSBX baudrate fft_length
+### _make_
+
+### _launch application with python monitor.py ttyUSBX baudrate fft_length_
