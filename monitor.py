@@ -83,12 +83,11 @@ class SerialPlot:
         fft_data = self.get_fft(data, length=self.fft_len)
         dc = fft_data[0]
         #get maximum from first
-        first_zero = int(self.fft_len/self.__max_len)
-        sub_data =list(fft_data[first_zero:int(self.fft_len/2)])
+        sub_data =list(fft_data[0:int(self.fft_len/2)])
         max_harmonic = max(sub_data)
         ratio = max_harmonic
-        max_harmonic_number = first_zero+sub_data.index(max_harmonic)
-        max_harmonic_freq = self.__sampling_freq*max_harmonic_number/self.fft_len
+        max_harmonic_number = sub_data.index(max_harmonic)
+        max_harmonic_freq = self.__sampling_freq*max_harmonic_number*1.0/self.fft_len
         plot.set_data(range(len(fft_data)), fft_data)
         ax.set_title("rate={:.2f} f={:.2f} cnt={} t={:.2f}".format(
                       ratio, max_harmonic_freq, int(cnt), t))
