@@ -1,0 +1,15 @@
+coloredlogs==10.0
+cycler==0.10.0
+future==0.16.0
+humanfriendly==4.13
+iso8601==0.1.12
+kiwisolver==1.0.1
+matplotlib==2.2.2
+numpy==1.14.5
+pyparsing==2.2.0
+pyserial==3.4
+python-dateutil==2.7.3
+pytz==2018.5
+PyYAML==3.13
+scipy==1.1.0
+six==1.11.0
