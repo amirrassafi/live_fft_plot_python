@@ -9,3 +9,11 @@
 ### _make_
 
 ### _launch application with python monitor.py ttyUSBX baudrate fft_length_
+
+```
+git clone https://github.com/amirrassafi/live_fft_plot_python.git
+cd live_fft_plot_python
+make
+source venv/bin/activate
+python monitor.py ttyUSB0 115200 256
+```
