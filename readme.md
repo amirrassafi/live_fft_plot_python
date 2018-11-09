@@ -10,7 +10,7 @@
 
 ### _launch application with python monitor.py ttyUSBX baudrate fft_length_
 
-```
+```bash
 git clone https://github.com/amirrassafi/live_fft_plot_python.git
 cd live_fft_plot_python
 make
