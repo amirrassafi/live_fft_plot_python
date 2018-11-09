@@ -17,3 +17,4 @@ make
 source venv/bin/activate
 python monitor.py ttyUSB0 115200 256
 ```
+### [YOUTUBE VIDEO](https://www.youtube.com/watch?v=IsVCZe7NloI)
